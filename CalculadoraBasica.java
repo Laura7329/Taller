@@ -94,6 +94,11 @@ public class CalculadoraBasica {
             }
 
             // Get operation
+            System.out.println("Seleccione la operación a realizar:");
+            System.out.println("  + : Sumar");
+            System.out.println("  - : Restar");
+            System.out.println("  * : Multiplicar");
+            System.out.println("  / : Dividir");
             System.out.print("Ingrese la operación (+, -, *, /): ");
             operacion = scanner.next();
 
